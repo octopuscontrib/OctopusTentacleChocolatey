@@ -27,7 +27,7 @@ To install the tentacle, issue 'cinst OctopusTentacle' at a prompt. The package 
 
 Install the tentacle to a machine on port 12345 and thrust the server thumbprint 
 ```
-cinst octopus.tentacle -InstallArguments "/Port:12345 /Thumbprint:6EC9D253F98D942AD5ACC5BE7799B754C8C8325F
+cinst octopus.tentacle -InstallArguments "/Port:12345 /Thumbprint:6P23LKJ32423L4KJ324LK2J34C8C8325F
 ```
 
 Install the tentacle and register the tentacle on the server in the 'Dev' environment, with the role 'SomeNewRole' and the instance name 'web-server'
