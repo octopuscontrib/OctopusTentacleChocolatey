@@ -34,3 +34,6 @@ Install the tentacle and register the tentacle on the server in the 'Dev' enviro
 cinst octopus.tentacle -InstallArguments "/Port:12345 /Thumbprint:6EC9OSIDFJWOIJWEFLK929292U92JJF9J292829F /OctopusUrl:octopus.somecompany.com /Environment:Dev /ApiKey:'API-K23L320W09FW09W9WE09EW0WWS' /InstanceName:web-server /Role:SomeNewRole
 ```
 
+**Uninstalling**
+
+Unfortunately cuninst isn't quite working yet, so this is a manual process so far
