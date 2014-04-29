@@ -6,14 +6,15 @@
         <authors>Jasper Nygaard</authors>
         <owners>Jasper Nygaard</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Octopus deploy tentacle agent</description>
+        <description>Octopus deploy tentacle agent chocolatey package</description>
         <releaseNotes />
-        <projectUrl>https://github.com/jnus/Chocolatey-octopus-tentacle</projectUrl>
+        <projectUrl>https://github.com/octopuscontrib/OctopusTentacleChocolatey</projectUrl>
     <language>en-US</language>
     </metadata>
       <files>
         <file src="chocolateyInstall.ps1" />
         <file src="chocolateyUninstall.ps1" />
         <file src="common.ps1" />
+        <file src="README.md" />
     </files>
 </package>
